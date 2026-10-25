@@ -28,7 +28,7 @@ Replace the following placeholders denoted by `<` and `>` with:
 VM_ID=vmpower/vmpowerdrone \
 API_KEY=<YOUR_API_KEY> \
 API_SECRET=<YOUR_API_SECRET> \
-sudo -E sh -c 'wget -qO /tmp/vmpower-agent.deb http://data.vmpower.com/cdn/dist/debian/vmpower-agent.deb && dpkg -i /tmp/vmpower-agent.deb && service vmpower start'
+sudo -E sh -c 'wget -qO /tmp/vmpower-agent.deb https://vmpower.blob.core.windows.net/cdn/dist/debian/vmpower-agent.deb && dpkg -i /tmp/vmpower-agent.deb && service vmpower start'
 ```
 
 ## Windows
@@ -57,7 +57,7 @@ This command will automatically configure your agent. If you need to, you can ma
 VM_ID=vmpower/vmpowerdrone \
 API_KEY=<YOUR_API_KEY> \
 API_SECRET=<YOUR_API_SECRET> \
-sudo -E sh -c 'wget -qO /tmp/vmpower-agent.deb http://data.vmpower.com/cdn/dist/debian/vmpower-agent.deb && dpkg -i /tmp/vmpower-agent.deb && service vmpower start'
+sudo -E sh -c 'wget -qO /tmp/vmpower-agent.deb https://vmpower.blob.core.windows.net/cdn/dist/debian/vmpower-agent.deb && dpkg -i /tmp/vmpower-agent.deb && service vmpower start'
 ```
 
 `https://api.vmpower/io`
